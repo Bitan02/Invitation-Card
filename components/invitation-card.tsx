@@ -221,7 +221,7 @@ export default function InvitationCard() {
       {/* Hint Text */}
       <div className="absolute top-8 left-1/2 transform -translate-x-1/2 text-center z-10">
         <p className="text-white/60 text-sm md:text-base font-light tracking-widest">
-          {isDragging ? "ROTATING..." : "DRAG TO ROTATE"}
+          {isDragging ? "ROTATING..." : "-SWIPE TO ROTATE-"}
         </p>
       </div>
 
