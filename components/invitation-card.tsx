@@ -227,7 +227,7 @@ export default function InvitationCard() {
 
       {/* Footer with Bubbling Text */}
       {/* PREMIUM FOOTER */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-full text-center select-none pointer-events-none">
+      <div className="absolute bottom-16 md:bottom-14 lg:bottom-6 xl:bottom-4 left-1/2 -translate-x-1/2 w-full text-center select-none pointer-events-none">
         <p className="footer-text inline-block px-6 py-2 rounded-xl">
           {"You are invited by Prabir Kumar Dhara".split("").map((ch, i) => (
             <span
@@ -266,7 +266,7 @@ export default function InvitationCard() {
 
 
       {/* Mobile Touch Indicator */}
-      <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 md:hidden">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 md:hidden">
         <p className="text-white/40 text-xs animate-pulse">← Swipe to rotate →</p>
       </div>
     </div>
