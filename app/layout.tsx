@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "360° Invitation Card",
+  title: "Invitation Card",
   description: "You are invited by Prabir Kumar Dhara - Experience the luxury",
   generator: "v0.app",
 }
